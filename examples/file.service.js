@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { NotFoundError } = require("../src/errors");
-const mkdir = require("mkdirp").sync;
+const { sync: mkdir } = require("mkdirp");
 const mime = require("mime-types");
 
 const uploadDir = path.join(__dirname, "__uploads");

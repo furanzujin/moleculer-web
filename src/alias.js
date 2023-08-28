@@ -6,7 +6,7 @@
 
 "use strict";
 
-const pathToRegexp 				= require("path-to-regexp");
+const { pathToRegexp } 			= require("path-to-regexp");
 const Busboy 					= require("@fastify/busboy");
 const kleur 					= require("kleur");
 const _ 						= require("lodash");
